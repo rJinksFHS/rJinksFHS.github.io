@@ -12,11 +12,12 @@ body {
 
 /* navigation menu */
 nav {
-  background: white;
+  background: yellow;
   padding: 10px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 20xp;
+  border-radius: 30px;
 }
 
 h1 {
@@ -46,7 +47,7 @@ a {
 
 /* main container area beneath menu */
 main {
-  background: white;
+  background: lightgreen;
   display: flex;
   margin-top: 20px;
 }
@@ -58,6 +59,7 @@ main {
 
 .sidebar-img {
   width: 200px;
+  border-radius: 30px;
 }
 
 .content {
@@ -87,17 +89,17 @@ h3 {
 }
 
 #portfolio li {
-  background: purple;
+  background: lightgreen;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
 }
 
 #portfolio li:hover {
-  background: #eee;
+  background: yellow;
 }
 
 #portfolio a {
   text-decoration: none;
-  color: black;
+  color: purple;
 }
