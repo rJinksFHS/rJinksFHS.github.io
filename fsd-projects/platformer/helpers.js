@@ -365,8 +365,8 @@ function projectileCollision() {
 function deathOfPlayer() {
   ctx.fillStyle = "purple";
   ctx.fillRect(
-    canvas.width / 4,
-    canvas.height / 6,
+    canvas.width / 6,
+    canvas.height / 4,
     canvas.width / 1,
     canvas.height / 1
   );
