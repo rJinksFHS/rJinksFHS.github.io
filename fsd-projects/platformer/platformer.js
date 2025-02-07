@@ -17,7 +17,7 @@ $(function () {
     }
 
     // Create walls - do not delete or modify this code
-    createPlatform(-50, -50, canvas.width + 100, 50); // top wall
+    createPlatform(-50, -50, canvas.width + 100, 50); // top wall"
     createPlatform(-50, canvas.height - 10, canvas.width + 100, 200, "navy"); // bottom wall
     createPlatform(-50, -50, 50, canvas.height + 500); // left wall
     createPlatform(canvas.width, -50, 50, canvas.height + 100); // right wall
@@ -31,16 +31,16 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
-createPlatform(275, 650, 150, 20)
-createPlatform(540, 600, 95, 20)
-createPlatform(300, 500, 50, 20)
-createPlatform(500, 400, 60, 20)
-createPlatform(700, 280, 150, 20)
-createPlatform(350, 275, 15, 20)
-createPlatform(100, 200, 150, 20)
-createPlatform(1000, 500, 20, 20)
-createPlatform(1100, 190, 20, 20)
-createPlatform(1300, 700, 20, 20)
+createPlatform(275, 650, 150, 20,"red");
+createPlatform(540, 600, 95, 20,"red");
+createPlatform(300, 500, 50, 20,"red");
+createPlatform(500, 400, 60, 20,"red");
+createPlatform(700, 280, 150, 20,"red");
+createPlatform(350, 275, 15, 20,"red");
+createPlatform(100, 200, 150, 20,"red");
+createPlatform(1000, 500, 20, 20,"red");
+createPlatform(1100, 190, 20, 20,"red");
+createPlatform(1300, 700, 20, 20,"red");
 
 
     // TODO 3 - Create Collectables
