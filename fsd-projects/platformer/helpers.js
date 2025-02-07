@@ -363,17 +363,17 @@ function projectileCollision() {
 }
 
 function deathOfPlayer() {
-  ctx.fillStyle = "grey";
+  ctx.fillStyle = "purple";
   ctx.fillRect(
-    canvas.width / 4,
-    canvas.height / 6,
-    canvas.width / 2,
-    canvas.height / 2
+    canvas.width / 24,
+    canvas.height / 18,
+    canvas.width / 1,
+    canvas.height / 1
   );
-  ctx.fillStyle = "black";
+  ctx.fillStyle = "gold";
   ctx.font = "800% serif";
   ctx.fillText(
-    "You are dead",
+    "your garbage",
     canvas.width / 4,
     canvas.height / 6 + canvas.height / 5,
     (canvas.width / 16) * 14
