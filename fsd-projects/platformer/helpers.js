@@ -365,10 +365,10 @@ function projectileCollision() {
 function deathOfPlayer() {
   ctx.fillStyle = "purple";
   ctx.fillRect(
-    canvas.width / 6,
-    canvas.height / 4,
+    canvas.width / 19,
+    canvas.height / 7,
     canvas.width / 1,
-    canvas.height / 1
+    canvas.height / 2
   );
   ctx.fillStyle = "gold";
   ctx.font = "800% serif";
