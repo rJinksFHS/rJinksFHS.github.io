@@ -21,7 +21,7 @@ var init = function (window) {
         
         // TODO 1 : Declare and initialize our variables
         var circle;
-        var circles = []
+        var circles = [];
 
 
         // TODO 2 : Create a function that draws a circle 
@@ -92,13 +92,13 @@ var init = function (window) {
             }
             
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
-            if ( circle.x < 0 ) {
+            else if ( circle.x < 0 ) {
                 circle.x = canvas.width;
             }
             if ( circle.y > canvas.height ) {
                 circle.y = 0;
             }
-            if ( circle.y < 0 ) {
+            else if ( circle.y < 0 ) {
                 circle.y = canvas.height;
             }
 
